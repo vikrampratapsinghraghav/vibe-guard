@@ -1,0 +1,15 @@
+{
+  "name": "vibe-guard",
+  "version": "0.1.0",
+  "description": "Audit vibe-coded projects across security, functional, architecture and design, and start new projects with the same guardrails.",
+  "author": {
+    "name": "Vikram Pratap Singh",
+    "url": "https://github.com/vikrampratapsinghraghav"
+  },
+  "license": "MIT",
+  "keywords": ["audit", "security", "architecture", "design", "vibe-coding", "review"],
+  "dependencies": [
+    { "name": "superpowers", "marketplace": "claude-plugins-official" },
+    { "name": "project-forge", "marketplace": "project-forge" }
+  ]
+}

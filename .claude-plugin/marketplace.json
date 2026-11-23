@@ -1,0 +1,20 @@
+{
+  "name": "vibe-guard",
+  "owner": {
+    "name": "Vikram Pratap Singh",
+    "url": "https://github.com/vikrampratapsinghraghav"
+  },
+  "metadata": {
+    "description": "Audit vibe-coded projects and start new ones with the guardrails already in place.",
+    "version": "0.1.0"
+  },
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official", "project-forge"],
+  "plugins": [
+    {
+      "name": "vibe-guard",
+      "source": "./plugins/vibe-guard",
+      "description": "/vibe-audit finds security, functional, architecture and design issues in an existing project; /vibe-start sets up a new project with the same rules from day one.",
+      "category": "development"
+    }
+  ]
+}
