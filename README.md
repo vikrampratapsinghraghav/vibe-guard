@@ -19,6 +19,13 @@ vibe-guard writes no checks of its own. It runs proven skills and merges their r
 | Design | `web-design-guidelines` / `ios-hig-design` / `mobile-app-ui-design` |
 
 ## Install
+
+**Quick install (any agent, via [skills.sh](https://skills.sh/)):**
+```bash
+npx skills add vikrampratapsinghraghav/vibe-guard -g -y
+```
+
+**As a Claude Code plugin:**
 1. Add the marketplace and plugin:
    ```bash
    claude plugin marketplace add vikrampratapsinghraghav/vibe-guard
